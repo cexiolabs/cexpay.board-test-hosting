@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Authentication</title>
+    <link href="fallback.css" rel="stylesheet" />
+</head>
+
+<body>
+    <noscript>
+        You need to enable JavaScript to run this app.
+    </noscript>
+    <div class="loader">
+        <?xml version="1.0" encoding="UTF-8"?>
+        <svg width="38px" height="38px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <!-- Generator: sketchtool 58 (101010) - https://sketch.com -->
+            <title>FC1D8CAE-A2A3-4F22-A3A1-19F5F3BD382B</title>
+            <desc>Created with sketchtool.</desc>
+            <defs>
+                <path
+                    d="M10,18.1818182 C14.5186934,18.1818182 18.1818182,14.5186934 18.1818182,10 C18.1818182,5.48130659 14.5186934,1.81818182 10,1.81818182 L10,0 L10,0 C15.5228475,0 20,4.4771525 20,10 C20,15.5228475 15.5228475,20 10,20 C4.4771525,20 4.4408921e-16,15.5228475 4.4408921e-16,10 L1.81818182,10 L1.81818182,10 C1.81818182,14.5186934 5.48130659,18.1818182 10,18.1818182 Z"
+                    id="path-1"></path>
+            </defs>
+            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="11">
+                    <g id="Progress-Indicators-/-Circular" transform="translate(2.000000, 2.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Surface"></g>
+                        <g id="CONTAINER-COLOR" mask="url(#mask-2)" fill="#344563">
+                            <g id="↳-Tonal-Palette">
+                                <rect id="Rectangle-13" x="0" y="0" width="20" height="20"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </svg>
+    </div>
+
+    <script src="https://unpkg.com/oidc-client@1.11.5/dist/oidc-client.min.js"></script>
+    <script>
+        new Oidc.UserManager({ response_mode: "query" }).signinRedirectCallback().then(function () {
+            window.location = "/";
+        }).catch(function (e) {
+            console.error(e);
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+.l3supportframe-wrapper {
+	position:fixed;
+	left:0;
+	top:0;
+	width:100vw;
+	height:100vh;
+	background-color:rgba(210, 210, 210, 0.95);
+	z-index: 9999;
+	display:flex;
+	justify-content: center;
+}
+
+.l3supportframe-wrapper iframe {
+	width: 98vw;
+	min-height: 98vh;
+	margin: auto;
+	border: 0;
+	border-radius: 5px;
+}

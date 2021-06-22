@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/pscl/static/css/main.9b980888.css",
+    "main.js": "/pscl/static/js/main.bdfe023d.js",
+    "static/js/787.40cd12bd.chunk.js": "/pscl/static/js/787.40cd12bd.chunk.js",
+    "static/media/direct@2x.png": "/pscl/static/media/direct@2x.be2a8937dccf43171c64.png",
+    "index.html": "/pscl/index.html",
+    "static/media/background.svg": "/pscl/static/media/background.9cfa43deaef5c1430158.svg",
+    "main.9b980888.css.map": "/pscl/static/css/main.9b980888.css.map",
+    "main.bdfe023d.js.map": "/pscl/static/js/main.bdfe023d.js.map",
+    "787.40cd12bd.chunk.js.map": "/pscl/static/js/787.40cd12bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b980888.css",
+    "static/js/main.bdfe023d.js"
+  ]
+}
